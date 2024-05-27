@@ -7,5 +7,7 @@ export default defineWorkersConfig({
         wrangler: { configPath: './wrangler.toml' },
       },
     },
+    disableConsoleIntercept: true,
+    reporters: ['basic'],
   },
 });
